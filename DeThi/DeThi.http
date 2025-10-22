@@ -1,0 +1,6 @@
+@DeThi_HostAddress = http://localhost:5148
+
+GET {{DeThi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
