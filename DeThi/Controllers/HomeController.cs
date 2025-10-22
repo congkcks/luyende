@@ -48,7 +48,7 @@ public class HomeController : Controller
     public async Task<ActionResult<IEnumerable<string>>> GetTestList()
     {
         var testTitles = await _context.Tests
-            .Select(t => t.Title)
+            .Select(t => new {t.Title,t.TestId} )
             .ToListAsync();
         return Ok(testTitles);
     }

@@ -137,3 +137,4 @@ C:\Users\ACER\source\repos\DeThi\DeThi\bin\Debug\net8.0\runtimes\browser\lib\net
 C:\Users\ACER\source\repos\DeThi\DeThi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ACER\source\repos\DeThi\DeThi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\ACER\source\repos\DeThi\DeThi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ACER\source\repos\DeThi\DeThi\obj\Debug\net8.0\DeThi.sourcelink.json
