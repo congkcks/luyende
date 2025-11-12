@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeThi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55904cfe1ebb8957ed818af3a4a0094dfd209358")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7241d0ae1e69dfb5bdd06879c7864e30ebb7f74f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeThi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeThi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
