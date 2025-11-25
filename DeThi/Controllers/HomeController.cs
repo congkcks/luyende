@@ -26,7 +26,7 @@ public class HomeController : ControllerBase
             .Include(t => t.Questions)
                 .ThenInclude(q => q.Options)
             .Include(t => t.Questions)
-                .ThenInclude(q => q.Group)   // ✅ Đúng: Group là navigation property
+                .ThenInclude(q => q.Group)
             .FirstOrDefaultAsync(t => t.TestId == testId);
 
         if (test == null)
@@ -38,6 +38,7 @@ public class HomeController : ControllerBase
             title = test.Title,
             duration = test.DurationMinutes,
             totalQuestions = test.TotalQuestions,
+
             questions = test.Questions
                 .OrderBy(q => q.QuestionNumber)
                 .Select(q => new
@@ -47,6 +48,13 @@ public class HomeController : ControllerBase
                     part = q.Part,
                     questionText = q.QuestionText,
 
+                    // ✅ Đáp án đúng
+                    correctAnswer = q.CorrectAnswerLabel,
+
+                    // ✅ Giải thích đáp án
+                    explanation = q.AnswerExplanation,
+
+                    // ✅ Group (Paragraph / Audio)
                     audioUrl = q.Group != null ? q.Group.AudioUrl : q.AudioUrl,
                     imageUrl = q.Group != null ? q.Group.ImageUrl : q.ImageUrl,
                     passageText = q.Group != null ? q.Group.PassageText : null,
@@ -63,6 +71,7 @@ public class HomeController : ControllerBase
 
         return Ok(result);
     }
+
 
     [HttpGet("start/{testId}/part/{part}")]
     public async Task<IActionResult> GetByPart(string testId, int part)

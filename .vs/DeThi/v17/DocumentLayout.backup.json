@@ -98,8 +98,7 @@
               "RelativeToolTip": "DeThi\\Controllers\\TestSessionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:53:48.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:53:48.016Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "DeThi\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DeThi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADMAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T14:52:40.954Z",
               "EditorCaption": ""
@@ -124,8 +123,7 @@
               "RelativeToolTip": "DeThi\\Models\\UserAnswer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:52:11.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:52:11.344Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "DeThi\\Models\\TestSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:52:10.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:52:10.224Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "DeThi\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:51:57.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:51:57.998Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "DeThi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-22T06:08:54.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T06:08:54.452Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "DeThi\\Models\\Test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:12:32.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T02:12:32.031Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "DeThi\\Models\\Question.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:08.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T02:11:08.718Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "DeThi\\Mappings\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:07.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T02:11:07.983Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "DeThi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:45:14.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:45:14.454Z"
             },
             {
               "$type": "Document",
@@ -228,8 +219,7 @@
               "RelativeToolTip": "DeThi\\DTO\\SubmitAnswerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:57:03.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:57:03.627Z"
             },
             {
               "$type": "Document",
@@ -241,8 +231,7 @@
               "RelativeToolTip": "DeThi\\Models\\PostgresContext.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAwwB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T15:20:37.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T15:20:37.755Z"
             },
             {
               "$type": "Document",
@@ -254,8 +243,7 @@
               "RelativeToolTip": "DeThi\\Models\\Option.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:13.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T02:11:13.047Z"
             },
             {
               "$type": "Document",
@@ -267,8 +255,7 @@
               "RelativeToolTip": "DeThi\\DTO\\OptionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T11:38:32.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T11:38:32.602Z"
             },
             {
               "$type": "Document",
@@ -280,8 +267,7 @@
               "RelativeToolTip": "DeThi\\DTO\\QuestionDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T15:32:17.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T15:32:17.232Z"
             },
             {
               "$type": "Document",
