@@ -25,7 +25,15 @@ public partial class Question
 
     public string? AnswerExplanation { get; set; }
 
+    public int? Part { get; set; }
+
+    public string? GroupId { get; set; }
+
+    public virtual QuestionGroup? Group { get; set; }
+
     public virtual ICollection<Option> Options { get; set; } = new List<Option>();
 
     public virtual Test? Test { get; set; }
+
+    public virtual ICollection<UserAnswer> UserAnswers { get; set; } = new List<UserAnswer>();
 }

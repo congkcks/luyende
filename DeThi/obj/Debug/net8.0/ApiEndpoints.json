@@ -137,5 +137,127 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DeThi.Controllers.HomeController",
+    "Method": "StartTest",
+    "RelativePath": "api/Home/start/{testId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.HomeController",
+    "Method": "GetByPart",
+    "RelativePath": "api/Home/start/{testId}/part/{part}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "part",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "SubmitAnswer",
+    "RelativePath": "api/test-session/answer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DeThi.DTO.SubmitAnswerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "GetHistory",
+    "RelativePath": "api/test-session/history/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "ReviewSession",
+    "RelativePath": "api/test-session/review/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "StartSession",
+    "RelativePath": "api/test-session/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DeThi.DTO.StartTestSessionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "SubmitResult",
+    "RelativePath": "api/test-session/submit/{sessionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "DeThi.DTO.SubmitResultDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

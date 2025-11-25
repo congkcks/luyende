@@ -10,18 +10,90 @@ namespace DeThi.Controllers;
 [Route("api/[controller]")]
 public class HomeController : ControllerBase
 {
-    private readonly PostgresContext _context;
+    private readonly AppDbContext _context;
     private readonly IMapper _mapper;
 
-    public HomeController(PostgresContext context, IMapper mapper)
+    public HomeController(AppDbContext context, IMapper mapper)
     {
         _context = context;
         _mapper = mapper;
     }
 
-    // ===========================================
-    // 🔹 READ - Lấy 1 đề thi theo id
-    // GET api/tests/T01
+    [HttpGet("start/{testId}")]
+    public async Task<IActionResult> StartTest(string testId)
+    {
+        var test = await _context.Tests
+            .Include(t => t.Questions)
+                .ThenInclude(q => q.Options)
+            .Include(t => t.Questions)
+                .ThenInclude(q => q.Group)   // ✅ Đúng: Group là navigation property
+            .FirstOrDefaultAsync(t => t.TestId == testId);
+
+        if (test == null)
+            return NotFound("Test not found");
+
+        var result = new
+        {
+            testId = test.TestId,
+            title = test.Title,
+            duration = test.DurationMinutes,
+            totalQuestions = test.TotalQuestions,
+            questions = test.Questions
+                .OrderBy(q => q.QuestionNumber)
+                .Select(q => new
+                {
+                    questionId = q.QuestionId,
+                    questionNumber = q.QuestionNumber,
+                    part = q.Part,
+                    questionText = q.QuestionText,
+
+                    audioUrl = q.Group != null ? q.Group.AudioUrl : q.AudioUrl,
+                    imageUrl = q.Group != null ? q.Group.ImageUrl : q.ImageUrl,
+                    passageText = q.Group != null ? q.Group.PassageText : null,
+
+                    options = q.Options
+                        .OrderBy(o => o.OptionLabel)
+                        .Select(o => new
+                        {
+                            label = o.OptionLabel,
+                            text = o.OptionText
+                        })
+                })
+        };
+
+        return Ok(result);
+    }
+
+    [HttpGet("start/{testId}/part/{part}")]
+    public async Task<IActionResult> GetByPart(string testId, int part)
+    {
+        var questions = await _context.Questions
+            .Where(q => q.TestId == testId && q.Part == part)
+            .Include(q => q.Options)
+            .Include(q => q.Group)
+            .OrderBy(q => q.QuestionNumber)
+            .Select(q => new
+            {
+                questionId = q.QuestionId,
+                questionNumber = q.QuestionNumber,
+                part = q.Part,
+                questionText = q.QuestionText,
+
+                audioUrl = q.Group != null ? q.Group.AudioUrl : q.AudioUrl,
+                imageUrl = q.Group != null ? q.Group.ImageUrl : q.ImageUrl,
+                passageText = q.Group != null ? q.Group.PassageText : null,
+
+                options = q.Options.Select(o => new
+                {
+                    label = o.OptionLabel,
+                    text = o.OptionText
+                })
+            })
+            .ToListAsync();
+
+        return Ok(questions);
+    }
+
     [HttpGet("{id}")]
     public async Task<ActionResult<TestDto>> GetTest(string id)
     {
