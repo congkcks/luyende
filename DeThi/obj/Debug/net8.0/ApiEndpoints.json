@@ -177,15 +177,15 @@
   },
   {
     "ContainingType": "DeThi.Controllers.TestSessionController",
-    "Method": "SubmitAnswer",
-    "RelativePath": "api/test-session/answer",
+    "Method": "SubmitAnswers",
+    "RelativePath": "api/test-session/answers",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "DeThi.DTO.SubmitAnswerDto",
+        "Name": "answers",
+        "Type": "System.Collections.Generic.List\u00601[[DeThi.DTO.SubmitAnswerDto, DeThi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

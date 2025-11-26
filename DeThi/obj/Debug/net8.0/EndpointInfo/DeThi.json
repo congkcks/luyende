@@ -320,7 +320,7 @@
         }
       }
     },
-    "/api/test-session/answer": {
+    "/api/test-session/answers": {
       "post": {
         "tags": [
           "TestSession"
@@ -329,17 +329,26 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SubmitAnswerDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SubmitAnswerDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SubmitAnswerDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SubmitAnswerDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SubmitAnswerDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SubmitAnswerDto"
+                }
               }
             }
           }

@@ -42,41 +42,54 @@ public class TestSessionController : ControllerBase
     }
 
     // ============================
-    // 2. Lưu đáp án từng câu
-    // POST api/test-session/answer
-    [HttpPost("answer")]
-    public async Task<IActionResult> SubmitAnswer([FromBody] SubmitAnswerDto dto)
+    // 2. Lưu danh sách đáp án (1 lần)
+    // POST api/test-session/answers
+    [HttpPost("answers")]
+    public async Task<IActionResult> SubmitAnswers([FromBody] List<SubmitAnswerDto> answers)
     {
-        var answer = await _context.UserAnswers
-            .FirstOrDefaultAsync(x =>
-                x.SessionId == dto.SessionId &&
-                x.QuestionId == dto.QuestionId);
+        if (answers == null || answers.Count == 0)
+            return BadRequest("Empty answers list");
 
-        if (answer != null)
+        var sessionId = answers.First().SessionId;
+
+        foreach (var dto in answers)
         {
-            answer.SelectedOption = dto.SelectedOption;
-            answer.IsCorrect = dto.IsCorrect;
-            answer.AnsweredAt = DateTime.UtcNow;
-        }
-        else
-        {
-            var newAnswer = new UserAnswer
+            var existing = await _context.UserAnswers
+                .FirstOrDefaultAsync(x =>
+                    x.SessionId == dto.SessionId &&
+                    x.QuestionId == dto.QuestionId);
+
+            if (existing != null)
             {
-                SessionId = dto.SessionId,
-                UserId = dto.UserId,
-                QuestionId = dto.QuestionId,
-                SelectedOption = dto.SelectedOption,
-                IsCorrect = dto.IsCorrect,
-                AnsweredAt = DateTime.UtcNow
-            };
+                existing.SelectedOption = dto.SelectedOption;
+                existing.IsCorrect = dto.IsCorrect;
+                existing.AnsweredAt = DateTime.UtcNow;
+            }
+            else
+            {
+                var answer = new UserAnswer
+                {
+                    SessionId = dto.SessionId,
+                    UserId = dto.UserId,
+                    QuestionId = dto.QuestionId,
+                    SelectedOption = dto.SelectedOption,
+                    IsCorrect = dto.IsCorrect,
+                    AnsweredAt = DateTime.UtcNow
+                };
 
-            _context.UserAnswers.Add(newAnswer);
+                _context.UserAnswers.Add(answer);
+            }
         }
 
         await _context.SaveChangesAsync();
 
-        return Ok(new { message = "Answer saved" });
+        return Ok(new
+        {
+            message = "All answers saved successfully",
+            total = answers.Count
+        });
     }
+
 
     // ============================
     // 3. Nộp bài → cập nhật điểm tổng
