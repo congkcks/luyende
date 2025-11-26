@@ -5,11 +5,11 @@ namespace DeThi.Models;
 
 public partial class UserAnswer
 {
-    public Guid AnswerId { get; set; }
+    public int AnswerId { get; set; }
 
     public Guid SessionId { get; set; }
 
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
     public int QuestionId { get; set; }
 

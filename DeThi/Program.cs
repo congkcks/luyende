@@ -1,10 +1,11 @@
 ﻿using DeThi.Models;
 using EnglishTestService.Mappings;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<PostgresContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
@@ -14,8 +15,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         policy => policy
-            .AllowAnyOrigin()     
-            .AllowAnyMethod()     
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
             .AllowAnyHeader());
 });
 

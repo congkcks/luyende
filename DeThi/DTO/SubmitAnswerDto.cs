@@ -3,8 +3,10 @@
 public class SubmitAnswerDto
 {
     public Guid SessionId { get; set; }
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
     public int QuestionId { get; set; }
+
     public string SelectedOption { get; set; }
     public bool IsCorrect { get; set; }
 }
+

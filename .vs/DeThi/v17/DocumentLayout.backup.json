@@ -11,60 +11,44 @@
       "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\controllers\\testsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\submitresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\submitresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\starttestsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\starttestsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\dto\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\dto\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|c:\\users\\acer\\source\\repos\\dethi\\dethi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AB88052-94AB-4220-A18A-B04A6AE4945D}|DeThi\\DeThi.csproj|solutionrelative:dethi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,8 +58,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubmitResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitResultDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\SubmitResultDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitResultDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\SubmitResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:50:57.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartTestSessionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\StartTestSessionDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\StartTestSessionDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\StartTestSessionDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\StartTestSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:49:55.731Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -96,9 +106,10 @@
               "RelativeDocumentMoniker": "DeThi\\Controllers\\TestSessionController.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Controllers\\TestSessionController.cs",
               "RelativeToolTip": "DeThi\\Controllers\\TestSessionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwGEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:53:48.016Z"
+              "WhenOpened": "2025-11-26T06:49:26.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,50 +119,105 @@
               "RelativeDocumentMoniker": "DeThi\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DeThi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:52:40.954Z",
+              "WhenOpened": "2025-11-26T06:47:57.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostgresContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\PostgresContext.cs",
+              "RelativeDocumentMoniker": "DeThi\\Models\\PostgresContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\PostgresContext.cs",
+              "RelativeToolTip": "DeThi\\Models\\PostgresContext.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:44:57.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Program.cs",
+              "RelativeDocumentMoniker": "DeThi\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Program.cs",
+              "RelativeToolTip": "DeThi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:35:38.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DeThi\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "DeThi\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:35:34.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\OptionDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\OptionDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\OptionDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\OptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T11:38:32.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\QuestionDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\QuestionDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\QuestionDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\QuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:32:17.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubmitAnswerDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitAnswerDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\SubmitAnswerDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitAnswerDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\SubmitAnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T14:57:03.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "UserAnswer.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\UserAnswer.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\UserAnswer.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\UserAnswer.cs",
-              "RelativeToolTip": "DeThi\\Models\\UserAnswer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Title": "TestDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\TestDto.cs",
+              "RelativeDocumentMoniker": "DeThi\\DTO\\TestDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\TestDto.cs",
+              "RelativeToolTip": "DeThi\\DTO\\TestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:52:11.344Z"
+              "WhenOpened": "2025-10-21T10:12:03.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TestSession.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\TestSession.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\TestSession.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\TestSession.cs",
-              "RelativeToolTip": "DeThi\\Models\\TestSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:52:10.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "DeThi\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:51:57.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\appsettings.json",
               "RelativeDocumentMoniker": "DeThi\\appsettings.json",
@@ -160,126 +226,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-22T06:08:54.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Test.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\Test.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Test.cs",
-              "RelativeToolTip": "DeThi\\Models\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:12:32.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\Question.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Question.cs",
-              "RelativeToolTip": "DeThi\\Models\\Question.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:08.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "DeThi\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "DeThi\\Mappings\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:07.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Program.cs",
-              "RelativeDocumentMoniker": "DeThi\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Program.cs",
-              "RelativeToolTip": "DeThi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:45:14.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubmitAnswerDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitAnswerDto.cs",
-              "RelativeDocumentMoniker": "DeThi\\DTO\\SubmitAnswerDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\SubmitAnswerDto.cs",
-              "RelativeToolTip": "DeThi\\DTO\\SubmitAnswerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:57:03.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PostgresContext.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\PostgresContext.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\PostgresContext.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\PostgresContext.cs",
-              "RelativeToolTip": "DeThi\\Models\\PostgresContext.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwB0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T15:20:37.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Option.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Option.cs",
-              "RelativeDocumentMoniker": "DeThi\\Models\\Option.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\Models\\Option.cs",
-              "RelativeToolTip": "DeThi\\Models\\Option.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:11:13.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OptionDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\OptionDto.cs",
-              "RelativeDocumentMoniker": "DeThi\\DTO\\OptionDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\OptionDto.cs",
-              "RelativeToolTip": "DeThi\\DTO\\OptionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T11:38:32.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QuestionDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\QuestionDto.cs",
-              "RelativeDocumentMoniker": "DeThi\\DTO\\QuestionDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\QuestionDto.cs",
-              "RelativeToolTip": "DeThi\\DTO\\QuestionDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T15:32:17.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TestDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\TestDto.cs",
-              "RelativeDocumentMoniker": "DeThi\\DTO\\TestDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\DeThi\\DeThi\\DTO\\TestDto.cs",
-              "RelativeToolTip": "DeThi\\DTO\\TestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:12:03.251Z"
             }
           ]
         },

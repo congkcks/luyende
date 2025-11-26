@@ -427,8 +427,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -509,8 +509,12 @@
         "type": "object",
         "properties": {
           "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userEmail": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "testId": {
             "type": "string",
@@ -527,8 +531,8 @@
             "format": "uuid"
           },
           "userId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "integer",
+            "format": "int32"
           },
           "questionId": {
             "type": "integer",
@@ -547,19 +551,7 @@
       "SubmitResultDto": {
         "type": "object",
         "properties": {
-          "listeningCorrect": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "readingCorrect": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "totalCorrect": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "toeicScore": {
+          "totalScore": {
             "type": "integer",
             "format": "int32"
           }

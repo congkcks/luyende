@@ -1,8 +1,9 @@
-﻿using DeThi.Models;
+﻿using AutoMapper;
+using DeThi.DTO;
+using DeThi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DeThi.DTO;
-using AutoMapper;
+using System;
 
 namespace DeThi.Controllers;
 
@@ -10,10 +11,10 @@ namespace DeThi.Controllers;
 [Route("api/[controller]")]
 public class HomeController : ControllerBase
 {
-    private readonly AppDbContext _context;
+    private readonly PostgresContext _context;
     private readonly IMapper _mapper;
 
-    public HomeController(AppDbContext context, IMapper mapper)
+    public HomeController(PostgresContext context, IMapper mapper)
     {
         _context = context;
         _mapper = mapper;
