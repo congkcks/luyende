@@ -7,8 +7,6 @@ public partial class TestSession
 {
     public Guid SessionId { get; set; }
 
-    public int UserId { get; set; }
-
     public string? UserEmail { get; set; }
 
     public string TestId { get; set; } = null!;

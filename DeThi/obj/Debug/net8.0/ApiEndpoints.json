@@ -193,22 +193,6 @@
   },
   {
     "ContainingType": "DeThi.Controllers.TestSessionController",
-    "Method": "GetHistory",
-    "RelativePath": "api/test-session/history/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DeThi.Controllers.TestSessionController",
     "Method": "ReviewSession",
     "RelativePath": "api/test-session/review/{sessionId}",
     "HttpMethod": "GET",
@@ -263,14 +247,14 @@
   {
     "ContainingType": "DeThi.Controllers.TestSessionController",
     "Method": "GetSessionsByUser",
-    "RelativePath": "api/test-session/user/{userId}",
+    "RelativePath": "api/test-session/user/{userEmail}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
-        "Type": "System.Int32",
+        "Name": "userEmail",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

@@ -6,10 +6,6 @@ namespace DeThi.Models;
 
 public partial class PostgresContext : DbContext
 {
-    public PostgresContext()
-    {
-    }
-
     public PostgresContext(DbContextOptions<PostgresContext> options)
         : base(options)
     {
@@ -26,10 +22,6 @@ public partial class PostgresContext : DbContext
     public virtual DbSet<TestSession> TestSessions { get; set; }
 
     public virtual DbSet<UserAnswer> UserAnswers { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=aws-1-ap-southeast-1.pooler.supabase.com;Port=5432;Database=postgres;Username=postgres.msyxtzgstmvcyjjxyiso;Password=Conggtvt123456@@;Ssl Mode=Require;Trust Server Certificate=true");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -187,7 +179,6 @@ public partial class PostgresContext : DbContext
             entity.Property(e => e.UserEmail)
                 .HasMaxLength(255)
                 .HasColumnName("user_email");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
         });
 
         modelBuilder.Entity<UserAnswer>(entity =>

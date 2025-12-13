@@ -402,19 +402,18 @@
         }
       }
     },
-    "/api/test-session/user/{userId}": {
+    "/api/test-session/user/{userEmail}": {
       "get": {
         "tags": [
           "TestSession"
         ],
         "parameters": [
           {
-            "name": "userId",
+            "name": "userEmail",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
@@ -438,29 +437,6 @@
             "schema": {
               "type": "string",
               "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/test-session/history/{userId}": {
-      "get": {
-        "tags": [
-          "TestSession"
-        ],
-        "parameters": [
-          {
-            "name": "userId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
             }
           }
         ],
@@ -540,10 +516,6 @@
       "StartTestSessionDto": {
         "type": "object",
         "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "userEmail": {
             "type": "string",
             "nullable": true
@@ -561,10 +533,6 @@
           "sessionId": {
             "type": "string",
             "format": "uuid"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
           },
           "questionId": {
             "type": "integer",

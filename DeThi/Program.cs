@@ -1,7 +1,6 @@
 ﻿using DeThi.Models;
 using EnglishTestService.Mappings;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
