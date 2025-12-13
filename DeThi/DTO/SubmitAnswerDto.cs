@@ -3,7 +3,6 @@
 public class SubmitAnswerDto
 {
     public Guid SessionId { get; set; }
-    public int UserId { get; set; }
     public int QuestionId { get; set; }
 
     public string SelectedOption { get; set; }

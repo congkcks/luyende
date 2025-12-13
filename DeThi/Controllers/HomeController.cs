@@ -132,8 +132,6 @@ public class HomeController : ControllerBase
         return Ok(dtoList);
     }
 
-    // 🔹 READ - Lấy danh sách tên đề thi
-    // GET api/tests/list
     [HttpGet("list")]
     public async Task<ActionResult<IEnumerable<object>>> GetTestList()
     {
@@ -183,10 +181,6 @@ public class HomeController : ControllerBase
 
         return Ok(_mapper.Map<TestDto>(existingTest));
     }
-
-    // ===========================================
-    // 🔹 DELETE - Xóa đề thi
-    // DELETE api/tests/T01
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteTest(string id)
     {

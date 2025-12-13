@@ -259,5 +259,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.TestSessionController",
+    "Method": "GetSessionsByUser",
+    "RelativePath": "api/test-session/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
