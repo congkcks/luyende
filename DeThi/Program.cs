@@ -1,4 +1,5 @@
 ﻿using DeThi.Models;
+using DeThi.Models.English;
 using EnglishTestService.Mappings;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<PostgresContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+builder.Services.AddDbContext<EngLishContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("EnglishDb")));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddCors(options =>

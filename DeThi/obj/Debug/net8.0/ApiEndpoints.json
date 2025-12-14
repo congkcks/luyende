@@ -1,5 +1,105 @@
 [
   {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "GetAll",
+    "RelativePath": "api/ConversationTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "Create",
+    "RelativePath": "api/ConversationTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DeThi.Models.English.ConversationTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "GetById",
+    "RelativePath": "api/ConversationTemplate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "Update",
+    "RelativePath": "api/ConversationTemplate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "DeThi.Models.English.ConversationTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "Delete",
+    "RelativePath": "api/ConversationTemplate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DeThi.Controllers.ConversationTemplateController",
+    "Method": "Search",
+    "RelativePath": "api/ConversationTemplate/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topic",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "level",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DeThi.Controllers.HomeController",
     "Method": "GetAllTests",
     "RelativePath": "api/Home",
